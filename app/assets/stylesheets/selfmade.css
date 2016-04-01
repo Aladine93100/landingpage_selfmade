@@ -1,12 +1,22 @@
 body { 
   margin:0;
   padding:0;
-  background: url(has-site.png) no-repeat center fixed; 
-  background-color: black;
+  background: url(has-home1.png) no-repeat center fixed; 
   -webkit-background-size: cover; /* pour Chrome et Safari */
   -moz-background-size: cover; /* pour Firefox */
   -o-background-size: cover; /* pour Opera */
   background-size: cover; /* version standardisée */
   margin-right: 50px;
   margin-left: 50px;
+}
+
+.intro {
+  margin-top: 250px;
+  font-family: 'Play', sans-serif;
+  background: rgba(0,0,0,0.8);
+  color: white;
+  font-size: 15px; 
+  margin-right: 70px;
+  margin-left: 70px;
+  margin-bottom: 5px;
 }
